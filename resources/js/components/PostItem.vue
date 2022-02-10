@@ -25,9 +25,11 @@ export default {
         'post': Object
     },
     computed: {
+
         extractText(){
             return this.post.content.substr(0, 60) + '...';
         },
+
         getDate(){
             const date = new Date(this.post.created_at);
             return dayjs(date).format("YYYY-MM-DD");
@@ -38,6 +40,9 @@ export default {
 
 <style lang="scss" scoped>
 .post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: red;
 }
 </style>

@@ -2106,7 +2106,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".post-card[data-v-3d1b2bbe] {\n  background-color: red;\n}", ""]);
+exports.push([module.i, ".post-card[data-v-3d1b2bbe] {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  background-color: red;\n}", ""]);
 
 // exports
 
